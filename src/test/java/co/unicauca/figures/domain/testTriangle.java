@@ -13,8 +13,9 @@ import static org.junit.jupiter.api.Assertions.*;
 
 /**
  *
- * @author santi
+ * @author Santiago Felipe Gutierrez Astaiza
  */
+
 public class testTriangle {
     
     @Test
@@ -22,7 +23,7 @@ public class testTriangle {
         System.out.println("calculate Perimeter");
         Triange triange = new Triange(1.4,2.5);
         assertThrows(UnsupportedOperationException.class,
-                 () -> triange.calculatePerimeter());
+                 () -> triange.calculatePerimeAAter());
     }
    
     @Test
